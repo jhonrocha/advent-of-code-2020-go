@@ -13,3 +13,8 @@ func ReadLinesOfFile(path string) []string {
 	var content = strings.TrimSpace(string(data))
 	return strings.Split(content, "\n")
 }
+
+type Coord struct {
+  X int
+  Y int
+}
